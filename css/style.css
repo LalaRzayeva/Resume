@@ -1,0 +1,171 @@
+@font-face {
+    font-family: title; 
+    src: url(../fonts/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: lastname; 
+    src: url(../fonts/raiders.ttf); 
+}
+
+@font-face {
+    font-family: paragraph; 
+    src: url(../fonts/Roboto-Regular.ttf); 
+}
+
+body {
+    background: #FFFEFF;
+}
+
+.row {
+    margin-top: 2em;
+}
+
+.fa {
+    color: #D7EA00;
+}
+
+h1 {
+    font-family: title;
+    text-transform: uppercase;
+    font-size: 4em;
+    line-height: 1em;
+    margin-top: 1em;
+    color: #053C5E;  
+}
+
+#name {
+    text-transform: none;
+    font-size: 50px;
+    color: #053C5E;
+}
+
+#lastname {
+    font-family: lastname;
+    color: #D7EA00;
+}
+
+h2 {
+    font-family: title;
+    text-transform: uppercase;
+    color: #053C5E;
+    font-size: 1.6em;
+}
+
+h3 {
+    font-family: title;
+    font-size: 1.3em;
+    color: #053C5E;
+}
+
+b {
+    font-family: paragraph;
+    color: #053C5E;
+}
+
+i {
+    font-family: paragraph;
+    color: #053C5E;
+}
+
+p {
+    font-family: paragraph;
+    color: #053C5E;
+    font-size: 1.1em;
+}
+
+.education h3,
+.education p {
+    line-height: 1.2em;
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    border-color: #053C5E;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #053C5E, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #053C5E, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #053C5E, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #053C5E, #f0f0f0);    
+}
+
+.contacts {
+    font-family: title;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #053C5E;
+    font-size: 1em;
+}
+
+.img-circle.img-responsive {
+    width: 75%;
+    margin: 40px 0 25px 90px;
+}
+
+.title h2 {
+    text-align: right;
+}
+
+.row.footer {
+    height: 10vh;
+    text-align: center;
+    color: #053C5E;
+    font-weight: bold;
+}
+
+.sw,.en {
+    color: #E1DFE1;
+}
+/* Media Queries */
+
+@media screen and (max-width: 767px) and (min-width:564px) { 
+    .img-responsive.img-circle {
+    width: 23%;
+    float: left;
+    }
+
+    h1 {
+       float: left;
+       margin: 0.5em 0 0 1em;
+    }
+
+    .title h2 {
+        text-align: center;
+    }
+ }
+
+ @media screen and (max-width: 991px) and (min-width: 768px) { 
+    .contacts {
+      font-size: 0.7em;
+     
+    }
+ } 
+
+ @media screen and (max-width: 700px) and (min-width: 564px) { 
+    h1 { 
+        margin: 0.1em 0 0 0.6em;
+    }
+ } 
+
+ @media screen and (max-width: 564px) { 
+    .img-responsive.img-circle {
+        width: 50%;
+        margin: 1em auto;
+    }
+
+    h1 { 
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        margin: 0 auto; 
+    }
+
+    .title h2 {
+        text-align: center;
+    }
+ } 
+ 
+ 
+ 
